@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <header>
+        <nav>
+            <p>Tasks</p>
+            <h3>My Tasks</h3>
+            
+        </nav>
+    </header>
+    <div class="container">                
+        <div class="task-input">
+            <input type="text" id="new-task" placeholder="Add a new task...">
+            <button onclick="addTodo()">
+                <img src="todologo.png" alt="todo" class="logo">
+                Add</button>            
+        </div>
+        <div>
+            <ul id="task-list"></ul>
+            <p class="items-order">Drag to reorder items</p>
+        </div>        
+        <p class="error">Cannot not add empty task</p>
+    </div>
+    <div class="empty-task">
+        <h1>No tasks yet</h1>    
+        <p>Add your to-dos and keep track of them</p>        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
