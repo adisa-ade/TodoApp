@@ -120,5 +120,17 @@ li .buttons button.complete {
 }
 @media (min-width:1440px){
 body{
-  font-size: 30px;
+  font-size: 25px;  
+}
+  .task-input input { 
+  padding: 20px;
+}
+}
+@media (min-width:2560px){
+  body{
+    font-size: 35px;
+  }
+  .task-input input { 
+  padding: 25px;
+}
 }
