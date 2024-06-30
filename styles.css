@@ -132,3 +132,7 @@ li .buttons button.complete {
     border-radius: 5px;
   }  
 }
+@media (min-width:1440px){
+*{
+  font-size: 20px;
+}
