@@ -125,12 +125,15 @@ body{
   .task-input input { 
   padding: 20px;
 }
+  .task-input button {
+  padding: 5px;  
+}
 }
 @media (min-width:2560px){
   body{
     font-size: 35px;
   }
   .task-input input { 
-  padding: 25px;
+  padding: 40px;
 }
 }
