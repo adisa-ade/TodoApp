@@ -9,10 +9,7 @@
   --blue: #1B74E8;
   
    /* GRAY */
-  --gray-100: #FCFCFC;
-  --gray-200: #D4D4D4;
-  --gray-300: #BBBBBB;
-  --gray-400: #8E8E95;
+  --gray-200: #D4D4D4;  
   --gray-500: #6A6A70;  
 }
 body {
@@ -28,24 +25,18 @@ nav, .container{
   margin-right: 20%;
   padding: 10px;
 }
-.container {
-  
-}
-
 .task-input {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
   gap: 20px;
 }
-
 .task-input input {
   width: 70%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
-
 .task-input button {
   padding: 10px;
   border: none;  
@@ -56,16 +47,13 @@ nav, .container{
   border-radius: 5px;
   cursor: pointer;
 }
-
 .task-input button:hover {
   opacity: 60%;
 }
-
 ul {
   list-style: none;
   padding: 0;
 }
-
 li {
   background: #f9f9f9;  
   padding: 10px;
@@ -77,27 +65,22 @@ li {
   align-items: center;
   cursor: grab;  
 }
-
 li.completed {
   text-decoration: line-through;
   background: #e9ecef;
 }
-
 li .buttons {
   display: flex;
   gap: 10px;
 }
-
 li .buttons button {
   border: none;
   background: none;
   cursor: pointer;
 }
-
 li .buttons button.edit {
   color: #007bff;
 }
-
 li .buttons button.delete {
   color: #dc3545;
 }
@@ -135,4 +118,12 @@ li .buttons button.complete {
     border: 1px solid #ddd;
     border-radius: 5px;
   }  
+}
+@media (min-width:1440px){
+body{
+  font-size: 25px;  
+}
+  .task-input input { 
+  padding: 20px;
+}
 }
