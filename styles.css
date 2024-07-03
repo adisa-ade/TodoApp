@@ -105,8 +105,9 @@ li .buttons button.complete {
   color: #86d80a;
 }
 .container .error{
-  color: rgba(219, 30, 30, 0.719);
+  color: rgba(199, 12, 12, 0.918);
   display: none;  
+  font-size: 12px;
 }
 .container .items-order{
   display: none;
