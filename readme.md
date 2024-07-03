@@ -1,5 +1,5 @@
 ## Todo App
-This is a simple todo app with CRUD and draggbable feature.
+This is a simple todo app with CRUD and draggbable features.
 
 ## Built with
 Semantic HTML5 CSS-3 and JavaScript
